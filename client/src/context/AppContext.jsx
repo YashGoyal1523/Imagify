@@ -55,6 +55,7 @@ const AppContextProvider=(props)=>{
         setToken('')
         setUser(null)
         navigate('/')
+        toast.success("Logged out successfully")
     }
 
     //generate image
