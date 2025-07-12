@@ -66,7 +66,6 @@ const AppContextProvider=(props)=>{
             }
             else{
                 toast.error(data.message)
-                localCreditsData()
                 if(data.creditBalance===0){
                     navigate('/buy')
                 }
